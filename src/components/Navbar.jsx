@@ -6,7 +6,7 @@ import { FaFileDownload } from "react-icons/fa";
 
 import { Link } from "react-scroll";
 
-import resume from "../assets/Resume.pdf"
+import resume from "../assets/Resume.pdf";
 function Navbar() {
   const [toggle, setToggle] = useState(false);
   const clicked = () => {
@@ -22,7 +22,7 @@ function Navbar() {
       </div>
       <div
         className={`absolute min-h-[60vh] bg-white ${
-          toggle ? " top-[20%] text-center" : "md:static min-h-fit  top-[-100%]"
+          toggle ? " top-[14%] text-center" : "md:static min-h-fit  top-[-100%]"
         } left-0 w-full flex items-center justify-center transition-all  duration-500`}
       >
         <ul className="flex flex-col md:flex-row md:items-center gap-8 md:gap-[4vw] ">
@@ -82,7 +82,7 @@ function Navbar() {
         {/* E9F1FA */}
         {/* #00ABE4 */}
         <a
-          href= {resume}
+          href={resume}
           download
           className="bg-[#00ABE4] rounded-full text-white px-4 py-2 hover:bg-[#2373ff] flex gap-2 items-center hover:scale-110 transition-all duration-300"
         >

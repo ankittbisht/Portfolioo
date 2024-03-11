@@ -9,7 +9,7 @@ function Home() {
     // bg-[#00ABE4]
     <div
       name="Home"
-      className="w-full h-[100vh] md:h-[70vh] flex justify-center items-start mt-8 mb-12 md:mt-16"
+      className="w-full h-[80vh] md:h-[70vh] flex justify-center items-start mt-8 mb-12 md:mt-16"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col md:flex-row items-center">
         <div className="flex flex-col justify-center md:items-start md:pr-8 items-center">
@@ -22,7 +22,7 @@ function Home() {
           <h2 className="text-2xl font-medium md:text-3xl lg:text-4xl">
             Full Stack Developer
           </h2>
-          <p className="py-4 max-w-[700px] text-center md:text-left ">
+          <p className="py-4 px-8 md:px-0 max-w-[700px] text-center md:text-left ">
             Proficient in multiple programming languages and experienced in
             software development methodologies, I am eager to take on new
             challenges and make a meaningful impact in the field of software
